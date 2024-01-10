@@ -1,1 +1,12 @@
+version: 2.1
 
+workflows:
+  build-workflow:
+    jobs:
+      - runner
+jobs:
+  runner:
+    machine: true
+    resource_class: ujwfdzurc96xdr7bdfhbap/windowsrunner
+    steps:
+      - run: echo "Hi I'm on Runners!"
