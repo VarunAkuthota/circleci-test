@@ -7,6 +7,6 @@ workflows:
 jobs:
   runner:
     machine: true
-    resource_class: ujwfdzurc96xdr7bdfhbap/testrunner
+    resource_class: ujwfdzurc96xdr7bdfhbap/windowsrunner
     steps:
       - run: echo "Hi I'm on Runners!"
